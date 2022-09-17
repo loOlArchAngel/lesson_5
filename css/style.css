@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@400;500;700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700 & display=swap');
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Regular.woff2") format('woff2'), url("../fonts/Lato-Regular.woff") format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Bold.woff2") format('woff2'), url("../fonts/Lato-Bold.woff") format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Black.woff2") format('woff2'), url("../fonts/Lato-Black.woff") format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+body{
+   width: 1400px;
+   text-align: center;
+}
+/* header */
+h1{
+   font-family: "Playfair Display", serif;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: 700;
+   text-align: center;
+   color: rgb(236, 177, 13);
+   text-shadow: 2px 2px 20px;
+   margin-top: 50px;
+}
+/* main */
+main{
+   font-family: "Noto Sans", serif;
+   font-size: 20px;
+   text-align: center;
+}
+
+div{
+   text-align: justify;
+   line-height: 1.2;
+   text-indent: 30px;
+   padding-top: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+p{
+   padding-bottom: 20px;
+}
+ol{
+   font-family: "Playfair Display", serif;
+   font-size: 25px;
+   font-style: italic;
+   font-weight: 700;
+   text-align:justify;
+   color: chocolate;
+   text-shadow: 2px 2px 20px;
+   margin: 20px;
+}
+h3{
+   font-size: 30px;
+   font-style: italic;
+   color:chocolate;
+   text-shadow: 2px 2px 20px;
+   font-weight: 700;
+   text-align: center;
+   padding: 20px;
+}
+h5{
+   font-size: 25px;
+   font-style: italic;
+   color: darkslateblue;
+   text-shadow: 2px 2px 20px;
+   font-weight: 700;
+   text-align: center;
+   padding: 20px;
+
+}
+span{
+   font-family: "Playfair Display", serif;
+   font-size: 25px;
+   font-style: italic;
+   font-weight: 700;
+   color: chocolate;
+   text-shadow: 2px 2px 20px;
+   text-decoration: underline;
+}
+img{
+   vertical-align: top;
+}
+
+/* footer */
+p.footer{
+   color: gray;
+   font-size: 14px;
+}
+p.text{
+   font-size: 20px;
+   font-style: italic;
+   color: darkred;
+   font-weight: 700;
+   text-align: justify;
+   padding: 20px;
+}
+.ristretto-coffe,
+.espresso-coffe,
+.doppio-coffe,
+.americano-coffe,
+.makiyato-coffe,
+.flat-white-coffe,
+.cappuccino-coffe,
+.latte-coffe, p{
+   font-family: Lato;
+   font-size: 20px;
+}
